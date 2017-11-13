@@ -89,3 +89,26 @@ return sum;
 sumNums(2,2);
 
 console.log(sumNums (2,2));
+
+var apollo = {
+  isDog: true,
+  breed: "mutt",
+  legs: 4,
+  age: 2,
+  toys: ["mrs.moose", "bone","half a giraffe"]
+}
+
+speak: function () {
+  console.log("woof woof");
+},
+sayHiTo: function(name, age) {
+  console.log("Hi " + name + " woof woof! You're " + age) ;
+}
+};
+
+apollo.speak();
+
+apollo.sayHiTo("stella", 5);
+//the console object is a global object created within the browser
+//log is a method on that object 
+console.log(console);
